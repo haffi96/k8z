@@ -9,3 +9,11 @@ edition = "2021"
 clap = { version = "4.2.1", features = ["derive"] }
 inquire = { version = "0.6.1", features = ["date"] }
 kube = { version = "0.82.0", features = ["runtime", "derive"] }
+k8s-openapi = { version = "0.18.0", features = ["v1_26"] }
+tokio = { version = "1.27.0", features = ["full"] }
+tokio-util = "0.7.7"
+anyhow = "1.0.70"
+serde_json = "1.0.95"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+duct = "0.13.6"
